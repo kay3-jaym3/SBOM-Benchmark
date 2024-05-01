@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom serialNumber="urn:uuid:deb7d07d-978d-4787-9766-a657882cf5a5" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+  <metadata>
+    <timestamp>2024-05-01T01:45:12Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>OWASP Foundation</vendor>
+        <name>CycloneDX Maven plugin</name>
+        <version>2.7.10</version>
+        <hashes>
+          <hash alg="MD5">1cc7f6a0382f8bb2f758d6a6ea401d1b</hash>
+          <hash alg="SHA-1">a4297947a1f2d7d453105db542651614bbd37f38</hash>
+          <hash alg="SHA-256">bd0fdd8f2f2116eee5e715aeac1580f19eb7a10ec2b6f805b53567067658e872</hash>
+          <hash alg="SHA-512">9cde8352a427e10b96cae01348fc7cfe5d4aa9cd0a5e5dd93b414ce3bb7d112993c3b3004e53af52567fbfa16de0704ec59a5556a635ad70571fd124ae389f39</hash>
+          <hash alg="SHA-384">93d7bf5b5c735347edfbfbd66810273ca840f9a322b816d22d44c3d8e8255c09e86570bb23712aeb0cade0f478be5aeb</hash>
+          <hash alg="SHA3-384">4467f16e9ca32190a6e49c65339eb28ee5e8c78f4e918fcf95128a4b7648898de56ccb43eacfad0c9391ef8cdb7d629a</hash>
+          <hash alg="SHA3-256">ed2996c99b483e969221d5e9a40f562ea2ab85442d361d72a90e85266a3ed781</hash>
+          <hash alg="SHA3-512">c8e6ea9ddc38edc77e284b3bf541663e84752bdc59ed1935799847a48a14ea2fa531b61008fefcba37d732a56702a11ac112437b9b80d18f4ecc8ef0ecfb32cf</hash>
+        </hashes>
+      </tool>
+    </tools>
+    <component type="library" bom-ref="pkg:maven/sbom.benchmark/fp1@1.0-SNAPSHOT?type=jar">
+      <group>sbom.benchmark</group>
+      <name>fp1</name>
+      <version>1.0-SNAPSHOT</version>
+      <licenses/>
+      <purl>pkg:maven/sbom.benchmark/fp1@1.0-SNAPSHOT?type=jar</purl>
+    </component>
+    <properties>
+      <property name="maven.goal">makeBom</property>
+      <property name="maven.scopes">compile,provided,runtime,system</property>
+    </properties>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:maven/org.json/json@20220924?type=jar">
+      <group>org.json</group>
+      <name>json</name>
+      <version>20220924</version>
+      <description>JSON is a light-weight, language independent, data interchange format.
+        See http://www.JSON.org/
+
+        The files in this package implement JSON encoders/decoders in Java.
+        It also includes the capability to convert between JSON and XML, HTTP
+        headers, Cookies, and CDL.
+
+        This is a reference implementation. There is a large number of JSON packages
+        in Java. Perhaps someday the Java community will standardize on one. Until
+        then, choose carefully.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">f36abf03cfd6f354bbc956755c957c64</hash>
+        <hash alg="SHA-1">5aa95e7688f76c664af205c5937620f02688dfbc</hash>
+        <hash alg="SHA-256">57d65f5883bd65fa41e6d06cb7dcaceb73a49338bb8a4611c9e22d2a3f674a97</hash>
+        <hash alg="SHA-512">7fc8ba4864443f381474f69cba04ffdbd957b0cc65a80df545110db6388371893c157a34e96aefea7dc6a6dcc4cb07dd098e3667a50719023c46524587c07d02</hash>
+        <hash alg="SHA-384">b7247f53b66648007a9fe6c129d09685d3dc8717a0318de01826a4ef67d4f6bb4babaaf63ceb2f6173f2f0b69b084c72</hash>
+        <hash alg="SHA3-384">b92f452b37f519e5265d3a8a53d4b541dde7a204ef87dc06bb0ba222718555d52ab365f9cb8bc26642d301b8cab95e79</hash>
+        <hash alg="SHA3-256">5f65efffa28183247083cbac7730e8762c20c40f8987391ddf06ddc4cef5ead1</hash>
+        <hash alg="SHA3-512">975ea2150b5634c1e794888e18aacbbef85ddfe8e54e3a9171b1d16a7a31c7dbebdf4ae2db09d2faae4e6cec749f14437a78679fee0d56c4c39dea16a82ff417</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <name>Public Domain</name>
+          <url>https://github.com/stleary/JSON-java/blob/master/LICENSE</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.json/json@20220924?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/douglascrockford/JSON-java</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/douglascrockford/JSON-java.git</url></reference></externalReferences>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="pkg:maven/sbom.benchmark/fp1@1.0-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.json/json@20220924?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.json/json@20220924?type=jar"/>
+  </dependencies>
+</bom>

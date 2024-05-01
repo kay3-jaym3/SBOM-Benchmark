@@ -1,0 +1,82 @@
+{
+  "SPDXID" : "SPDXRef-DOCUMENT",
+  "spdxVersion" : "SPDX-2.3",
+  "creationInfo" : {
+    "created" : "2024-05-01T13:41:05Z",
+    "creators" : [ "Tool: spdx-maven-plugin" ],
+    "licenseListVersion" : "3.23"
+  },
+  "name" : "fp1",
+  "dataLicense" : "CC0-1.0",
+  "documentNamespace" : "http://spdx.org/spdxpackages/sbom.benchmark_fp1-1.0-SNAPSHOT",
+  "packages" : [ {
+    "SPDXID" : "SPDXRef-gnrtd0",
+    "copyrightText" : "NOASSERTION",
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:maven/sbom.benchmark/fp1@1.0-SNAPSHOT",
+      "referenceType" : "purl"
+    } ],
+    "filesAnalyzed" : true,
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "NOASSERTION",
+    "licenseInfoFromFiles" : [ "NOASSERTION" ],
+    "name" : "fp1",
+    "packageFileName" : "NOASSERTION",
+    "packageVerificationCode" : {
+      "packageVerificationCodeValue" : "469846bb25f2bcfa4c21721ea24e41f50c2d574f"
+    },
+    "primaryPackagePurpose" : "LIBRARY",
+    "versionInfo" : "1.0-SNAPSHOT"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd2",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "JSON is a light-weight, language independent, data interchange format.\n        See http://www.JSON.org/\n\n        The files in this package implement JSON encoders/decoders in Java.\n        It also includes the capability to convert between JSON and XML, HTTP\n        headers, Cookies, and CDL.\n\n        This is a reference implementation. There is a large number of JSON packages\n        in Java. Perhaps someday the Java community will standardize on one. Until\n        then, choose carefully.",
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:maven/org.json/json@20220924",
+      "referenceType" : "purl"
+    } ],
+    "filesAnalyzed" : false,
+    "homepage" : "https://github.com/douglascrockford/JSON-java",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "NOASSERTION",
+    "name" : "JSON in Java",
+    "summary" : "JSON is a light-weight, language independent, data interchange format.\n        See http://www.JSON.org/\n\n        The files in this package implement JSON encoders/decoders in Java.\n        It also includes the capability to convert between JSON and XML, HTTP\n        headers, Cookies, and CDL.\n\n        This is a reference implementation. There is a large number of JSON packages\n        in Java. Perhaps someday the Java community will standardize on one. Until\n        then, choose carefully.",
+    "versionInfo" : "20220924"
+  } ],
+  "files" : [ {
+    "SPDXID" : "SPDXRef-gnrtd1",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "7268bc1d51332407d2ea13647d32da344a276727"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./src/main/java/fp1/Main.java",
+    "fileTypes" : [ "SOURCE" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  } ],
+  "relationships" : [ {
+    "spdxElementId" : "SPDXRef-DOCUMENT",
+    "relationshipType" : "DESCRIBES",
+    "relatedSpdxElement" : "SPDXRef-gnrtd0",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd0",
+    "relationshipType" : "DYNAMIC_LINK",
+    "relatedSpdxElement" : "SPDXRef-gnrtd2",
+    "comment" : "Relationship based on Maven POM file dependency information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd0",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd1"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd1",
+    "relationshipType" : "GENERATES",
+    "relatedSpdxElement" : "SPDXRef-gnrtd0",
+    "comment" : ""
+  } ]
+}
