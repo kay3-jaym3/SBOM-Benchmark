@@ -1,0 +1,110 @@
+{
+  "SPDXID" : "SPDXRef-DOCUMENT",
+  "spdxVersion" : "SPDX-2.3",
+  "creationInfo" : {
+    "created" : "2024-05-14T17:52:47Z",
+    "creators" : [ "Tool: spdx-maven-plugin" ],
+    "licenseListVersion" : "3.23"
+  },
+  "name" : "deep-dependency",
+  "dataLicense" : "CC0-1.0",
+  "documentNamespace" : "http://spdx.org/spdxpackages/sbom.benchmark_deep-dependency-1.0-SNAPSHOT",
+  "packages" : [ {
+    "SPDXID" : "SPDXRef-gnrtd0",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "8cca17fad97b82fd50eec5e4b55ff1fdd23b65b7"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:maven/sbom.benchmark/deep-dependency@1.0-SNAPSHOT",
+      "referenceType" : "purl"
+    } ],
+    "filesAnalyzed" : true,
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "NOASSERTION",
+    "licenseInfoFromFiles" : [ "NOASSERTION" ],
+    "name" : "deep-dependency",
+    "packageFileName" : "deep-dependency-1.0-SNAPSHOT.jar",
+    "packageVerificationCode" : {
+      "packageVerificationCodeValue" : "5ae589f2f4707306186e446097ebdcdd5b1a51b6"
+    },
+    "primaryPackagePurpose" : "LIBRARY",
+    "versionInfo" : "1.0-SNAPSHOT"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd2",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Java UUID Generator (JUG) is a Java library for generating\nUniversally Unique IDentifiers, UUIDs (see http://en.wikipedia.org/wiki/UUID).\nIt can be used either as a component in a bigger application, or as a standalone command line tool.\nJUG generates UUIDs according to the IETF UUID draft specification.\nJUG supports all 3 official UUID generation methods.",
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:maven/com.fasterxml.uuid/java-uuid-generator@4.0.1",
+      "referenceType" : "purl"
+    } ],
+    "filesAnalyzed" : false,
+    "homepage" : "https://github.com/cowtowncoder/java-uuid-generator",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "Java UUID Generator",
+    "originator" : "Organization:FasterXML.com",
+    "summary" : "Java UUID Generator (JUG) is a Java library for generating\nUniversally Unique IDentifiers, UUIDs (see http://en.wikipedia.org/wiki/UUID).\nIt can be used either as a component in a bigger application, or as a standalone command line tool.\nJUG generates UUIDs according to the IETF UUID draft specification.\nJUG supports all 3 official UUID generation methods.",
+    "versionInfo" : "4.0.1"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd3",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "The slf4j API",
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:maven/org.slf4j/slf4j-api@1.7.29",
+      "referenceType" : "purl"
+    } ],
+    "filesAnalyzed" : false,
+    "homepage" : "http://www.slf4j.org",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "MIT",
+    "name" : "SLF4J API Module",
+    "originator" : "Organization:QOS.ch",
+    "summary" : "The slf4j API",
+    "versionInfo" : "1.7.29"
+  } ],
+  "files" : [ {
+    "SPDXID" : "SPDXRef-gnrtd1",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "567534d519006f5c127fcbf7876d229a8c946852"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./src/main/java/sbom/benchmark/Main.java",
+    "fileTypes" : [ "SOURCE" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  } ],
+  "relationships" : [ {
+    "spdxElementId" : "SPDXRef-DOCUMENT",
+    "relationshipType" : "DESCRIBES",
+    "relatedSpdxElement" : "SPDXRef-gnrtd0",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd0",
+    "relationshipType" : "DYNAMIC_LINK",
+    "relatedSpdxElement" : "SPDXRef-gnrtd2",
+    "comment" : "Relationship based on Maven POM file dependency information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd0",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd1"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd2",
+    "relationshipType" : "DYNAMIC_LINK",
+    "relatedSpdxElement" : "SPDXRef-gnrtd3",
+    "comment" : "Relationship based on Maven POM file dependency information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd1",
+    "relationshipType" : "GENERATES",
+    "relatedSpdxElement" : "SPDXRef-gnrtd0",
+    "comment" : ""
+  } ]
+}
