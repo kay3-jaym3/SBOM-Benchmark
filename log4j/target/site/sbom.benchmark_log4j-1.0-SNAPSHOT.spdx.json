@@ -2,7 +2,7 @@
   "SPDXID" : "SPDXRef-DOCUMENT",
   "spdxVersion" : "SPDX-2.3",
   "creationInfo" : {
-    "created" : "2024-04-30T19:33:34Z",
+    "created" : "2024-05-14T16:08:09Z",
     "creators" : [ "Tool: spdx-maven-plugin" ],
     "licenseListVersion" : "3.23"
   },
@@ -25,12 +25,29 @@
     "name" : "log4j",
     "packageFileName" : "NOASSERTION",
     "packageVerificationCode" : {
-      "packageVerificationCodeValue" : "43b2b143eb0f68b35a9b80fc9b84c343a2ad4f42"
+      "packageVerificationCodeValue" : "68226fd2fc20d4526f0dabb9710fb00ebff258e4"
     },
     "primaryPackagePurpose" : "LIBRARY",
     "versionInfo" : "1.0-SNAPSHOT"
   }, {
-    "SPDXID" : "SPDXRef-gnrtd2",
+    "SPDXID" : "SPDXRef-gnrtd3",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "JSON is a light-weight, language independent, data interchange format.\n        See http://www.JSON.org/\n\n        The files in this package implement JSON encoders/decoders in Java.\n        It also includes the capability to convert between JSON and XML, HTTP\n        headers, Cookies, and CDL.\n\n        This is a reference implementation. There is a large number of JSON packages\n        in Java. Perhaps someday the Java community will standardize on one. Until\n        then, choose carefully.",
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:maven/org.json/json@20220924",
+      "referenceType" : "purl"
+    } ],
+    "filesAnalyzed" : false,
+    "homepage" : "https://github.com/douglascrockford/JSON-java",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "NOASSERTION",
+    "name" : "JSON in Java",
+    "summary" : "JSON is a light-weight, language independent, data interchange format.\n        See http://www.JSON.org/\n\n        The files in this package implement JSON encoders/decoders in Java.\n        It also includes the capability to convert between JSON and XML, HTTP\n        headers, Cookies, and CDL.\n\n        This is a reference implementation. There is a large number of JSON packages\n        in Java. Perhaps someday the Java community will standardize on one. Until\n        then, choose carefully.",
+    "versionInfo" : "20220924"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd4",
     "copyrightText" : "UNSPECIFIED",
     "description" : "The Apache Log4j API",
     "downloadLocation" : "NOASSERTION",
@@ -48,7 +65,7 @@
     "summary" : "The Apache Log4j API",
     "versionInfo" : "2.13.0"
   }, {
-    "SPDXID" : "SPDXRef-gnrtd3",
+    "SPDXID" : "SPDXRef-gnrtd5",
     "copyrightText" : "UNSPECIFIED",
     "description" : "The Apache Log4j Implementation",
     "downloadLocation" : "NOASSERTION",
@@ -65,6 +82,74 @@
     "originator" : "Organization:The Apache Software Foundation",
     "summary" : "The Apache Log4j Implementation",
     "versionInfo" : "2.13.0"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd6",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Module \"junit-jupiter-api\" of JUnit 5.",
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.9.2",
+      "referenceType" : "purl"
+    } ],
+    "filesAnalyzed" : false,
+    "homepage" : "https://junit.org/junit5/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "NOASSERTION",
+    "name" : "JUnit Jupiter API",
+    "summary" : "Module \"junit-jupiter-api\" of JUnit 5.",
+    "versionInfo" : "5.9.2"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd7",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Open Test Alliance for the JVM",
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:maven/org.opentest4j/opentest4j@1.2.0",
+      "referenceType" : "purl"
+    } ],
+    "filesAnalyzed" : false,
+    "homepage" : "https://github.com/ota4j-team/opentest4j",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "org.opentest4j:opentest4j",
+    "summary" : "Open Test Alliance for the JVM",
+    "versionInfo" : "1.2.0"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd8",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Module \"junit-platform-commons\" of JUnit 5.",
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:maven/org.junit.platform/junit-platform-commons@1.9.2",
+      "referenceType" : "purl"
+    } ],
+    "filesAnalyzed" : false,
+    "homepage" : "https://junit.org/junit5/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "NOASSERTION",
+    "name" : "JUnit Platform Commons",
+    "summary" : "Module \"junit-platform-commons\" of JUnit 5.",
+    "versionInfo" : "1.9.2"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd9",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "@API Guardian",
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:maven/org.apiguardian/apiguardian-api@1.1.2",
+      "referenceType" : "purl"
+    } ],
+    "filesAnalyzed" : false,
+    "homepage" : "https://github.com/apiguardian-team/apiguardian",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "org.apiguardian:apiguardian-api",
+    "summary" : "@API Guardian",
+    "versionInfo" : "1.1.2"
   } ],
   "files" : [ {
     "SPDXID" : "SPDXRef-gnrtd1",
@@ -77,6 +162,17 @@
     "fileTypes" : [ "SOURCE" ],
     "licenseConcluded" : "NOASSERTION",
     "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd2",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "adae7e301867622892101ba108f6affd84a9b43e"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./src/test/java/CycloneDxPackageTest.java",
+    "fileTypes" : [ "SOURCE" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
   } ],
   "relationships" : [ {
     "spdxElementId" : "SPDXRef-DOCUMENT",
@@ -86,7 +182,7 @@
   }, {
     "spdxElementId" : "SPDXRef-gnrtd0",
     "relationshipType" : "DYNAMIC_LINK",
-    "relatedSpdxElement" : "SPDXRef-gnrtd2",
+    "relatedSpdxElement" : "SPDXRef-gnrtd4",
     "comment" : "Relationship based on Maven POM file dependency information"
   }, {
     "spdxElementId" : "SPDXRef-gnrtd0",
@@ -95,10 +191,44 @@
     "comment" : "Relationship based on Maven POM file dependency information"
   }, {
     "spdxElementId" : "SPDXRef-gnrtd0",
+    "relationshipType" : "DYNAMIC_LINK",
+    "relatedSpdxElement" : "SPDXRef-gnrtd5",
+    "comment" : "Relationship based on Maven POM file dependency information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd0",
     "relationshipType" : "CONTAINS",
     "relatedSpdxElement" : "SPDXRef-gnrtd1"
   }, {
+    "spdxElementId" : "SPDXRef-gnrtd0",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd6",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd0",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd2"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd6",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd9",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd6",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd7",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd6",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd8",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
     "spdxElementId" : "SPDXRef-gnrtd1",
+    "relationshipType" : "GENERATES",
+    "relatedSpdxElement" : "SPDXRef-gnrtd0",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd2",
     "relationshipType" : "GENERATES",
     "relatedSpdxElement" : "SPDXRef-gnrtd0",
     "comment" : ""
