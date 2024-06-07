@@ -1,0 +1,171 @@
+{
+  "SPDXID" : "SPDXRef-DOCUMENT",
+  "spdxVersion" : "SPDX-2.3",
+  "creationInfo" : {
+    "created" : "2024-06-07T14:27:45Z",
+    "creators" : [ "Tool: spdx-maven-plugin" ],
+    "licenseListVersion" : "3.24.0"
+  },
+  "name" : "parent-project",
+  "dataLicense" : "CC0-1.0",
+  "documentNamespace" : "http://spdx.org/spdxpackages/sbom.benchmark_parent-project-1.0-SNAPSHOT",
+  "packages" : [ {
+    "SPDXID" : "SPDXRef-gnrtd0",
+    "copyrightText" : "NOASSERTION",
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:maven/sbom.benchmark/parent-project@1.0-SNAPSHOT",
+      "referenceType" : "purl"
+    } ],
+    "filesAnalyzed" : true,
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "NOASSERTION",
+    "licenseInfoFromFiles" : [ "NOASSERTION" ],
+    "name" : "parent-project",
+    "packageFileName" : "NOASSERTION",
+    "packageVerificationCode" : {
+      "packageVerificationCodeValue" : "67b70e16aa6616353133e3b9f44353c46acbf979"
+    },
+    "primaryPackagePurpose" : "INSTALL",
+    "versionInfo" : "1.0-SNAPSHOT"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd2",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Module \"junit-jupiter-api\" of JUnit 5.",
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.9.2",
+      "referenceType" : "purl"
+    } ],
+    "filesAnalyzed" : false,
+    "homepage" : "https://junit.org/junit5/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "NOASSERTION",
+    "name" : "JUnit Jupiter API",
+    "summary" : "Module \"junit-jupiter-api\" of JUnit 5.",
+    "versionInfo" : "5.9.2"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd3",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Open Test Alliance for the JVM",
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:maven/org.opentest4j/opentest4j@1.2.0",
+      "referenceType" : "purl"
+    } ],
+    "filesAnalyzed" : false,
+    "homepage" : "https://github.com/ota4j-team/opentest4j",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "org.opentest4j:opentest4j",
+    "summary" : "Open Test Alliance for the JVM",
+    "versionInfo" : "1.2.0"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd4",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Module \"junit-platform-commons\" of JUnit 5.",
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:maven/org.junit.platform/junit-platform-commons@1.9.2",
+      "referenceType" : "purl"
+    } ],
+    "filesAnalyzed" : false,
+    "homepage" : "https://junit.org/junit5/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "NOASSERTION",
+    "name" : "JUnit Platform Commons",
+    "summary" : "Module \"junit-platform-commons\" of JUnit 5.",
+    "versionInfo" : "1.9.2"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd5",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "@API Guardian",
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:maven/org.apiguardian/apiguardian-api@1.1.2",
+      "referenceType" : "purl"
+    } ],
+    "filesAnalyzed" : false,
+    "homepage" : "https://github.com/apiguardian-team/apiguardian",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "org.apiguardian:apiguardian-api",
+    "summary" : "@API Guardian",
+    "versionInfo" : "1.1.2"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd6",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Apache Commons Lang, a package of Java utility classes for the\n  classes that are in java.lang's hierarchy, or are considered to be so\n  standard as to justify existence in java.lang.",
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:maven/org.apache.commons/commons-lang3@3.12.0",
+      "referenceType" : "purl"
+    } ],
+    "filesAnalyzed" : false,
+    "homepage" : "https://commons.apache.org/proper/commons-lang/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "Apache Commons Lang",
+    "originator" : "Organization:The Apache Software Foundation",
+    "summary" : "Apache Commons Lang, a package of Java utility classes for the\n  classes that are in java.lang's hierarchy, or are considered to be so\n  standard as to justify existence in java.lang.",
+    "versionInfo" : "3.12.0"
+  } ],
+  "files" : [ {
+    "SPDXID" : "SPDXRef-gnrtd1",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "10e984f5965b8e15cc458a49c7d40c3bde0abe26"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./src/main/java/sbom/benchmark/RandomNumberGenerator.java",
+    "fileTypes" : [ "SOURCE" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  } ],
+  "relationships" : [ {
+    "spdxElementId" : "SPDXRef-DOCUMENT",
+    "relationshipType" : "DESCRIBES",
+    "relatedSpdxElement" : "SPDXRef-gnrtd0",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd0",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd2",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd0",
+    "relationshipType" : "DYNAMIC_LINK",
+    "relatedSpdxElement" : "SPDXRef-gnrtd6",
+    "comment" : "Relationship based on Maven POM file dependency information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd0",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd1"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd2",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd4",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd2",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd5",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd2",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd3",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd1",
+    "relationshipType" : "GENERATES",
+    "relatedSpdxElement" : "SPDXRef-gnrtd0",
+    "comment" : ""
+  } ]
+}

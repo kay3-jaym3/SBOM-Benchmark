@@ -1,0 +1,161 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "serialNumber" : "urn:uuid:8e6d1c48-1b60-4a90-badb-81fd0df7c242",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2024-06-07T02:27:43Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP Foundation",
+        "name" : "CycloneDX Maven plugin",
+        "version" : "2.7.10",
+        "hashes" : [
+          {
+            "alg" : "MD5",
+            "content" : "1cc7f6a0382f8bb2f758d6a6ea401d1b"
+          },
+          {
+            "alg" : "SHA-1",
+            "content" : "a4297947a1f2d7d453105db542651614bbd37f38"
+          },
+          {
+            "alg" : "SHA-256",
+            "content" : "bd0fdd8f2f2116eee5e715aeac1580f19eb7a10ec2b6f805b53567067658e872"
+          },
+          {
+            "alg" : "SHA-512",
+            "content" : "9cde8352a427e10b96cae01348fc7cfe5d4aa9cd0a5e5dd93b414ce3bb7d112993c3b3004e53af52567fbfa16de0704ec59a5556a635ad70571fd124ae389f39"
+          },
+          {
+            "alg" : "SHA-384",
+            "content" : "93d7bf5b5c735347edfbfbd66810273ca840f9a322b816d22d44c3d8e8255c09e86570bb23712aeb0cade0f478be5aeb"
+          },
+          {
+            "alg" : "SHA3-384",
+            "content" : "4467f16e9ca32190a6e49c65339eb28ee5e8c78f4e918fcf95128a4b7648898de56ccb43eacfad0c9391ef8cdb7d629a"
+          },
+          {
+            "alg" : "SHA3-256",
+            "content" : "ed2996c99b483e969221d5e9a40f562ea2ab85442d361d72a90e85266a3ed781"
+          },
+          {
+            "alg" : "SHA3-512",
+            "content" : "c8e6ea9ddc38edc77e284b3bf541663e84752bdc59ed1935799847a48a14ea2fa531b61008fefcba37d732a56702a11ac112437b9b80d18f4ecc8ef0ecfb32cf"
+          }
+        ]
+      }
+    ],
+    "component" : {
+      "group" : "sbom.benchmark",
+      "name" : "parent-project",
+      "version" : "1.0-SNAPSHOT",
+      "licenses" : [ ],
+      "purl" : "pkg:maven/sbom.benchmark/parent-project@1.0-SNAPSHOT?type=pom",
+      "type" : "library",
+      "bom-ref" : "pkg:maven/sbom.benchmark/parent-project@1.0-SNAPSHOT?type=pom"
+    },
+    "properties" : [
+      {
+        "name" : "maven.goal",
+        "value" : "makeAggregateBom"
+      },
+      {
+        "name" : "maven.scopes",
+        "value" : "compile,provided,runtime,system"
+      }
+    ]
+  },
+  "components" : [
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.commons",
+      "name" : "commons-lang3",
+      "version" : "3.12.0",
+      "description" : "Apache Commons Lang, a package of Java utility classes for the classes that are in java.lang's hierarchy, or are considered to be so standard as to justify existence in java.lang.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "19fe50567358922bdad277959ea69545"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "d919d904486c037f8d193412da0c92e22a9fa24230b9d67a57855c5c31c7e94e"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "fbdbc0943cb3498b0148e86a39b773f97c8e6013740f72dbc727faeabea402073e2cc8c4d68198e5fc6b08a13b7700236292e99d4785f2c9989f2e5fac11fd81"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "c34b8a0e0eba2168ad56fedeb7a1d710b6f1d3f1ce6aae99a4e0247bd120efbbadc8dcb2f731045b8a16e3efd30604dc"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "8ad6ebe7754bf0caa8cda7e59c0e95360d76e06a7ad6aeec5637985519dbd1dd06e7eed04711039f36ec4c49de280def"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "18ef639b2aeeb5aedffb18dbf20c79f33e300d99fb31b131689639cc470e6e4c"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "fbea96114dcf4f31cfaaa99987be756ddda3a6c74f8c835461997df794d54b92da1f60fe5c3f1f2a43cb8c5f5db7f4048bef77c70993673c7a93f3660fffc8da"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-lang/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://builds.apache.org/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/LANG"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=commons-lang.git"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/sbom.benchmark/parent-project@1.0-SNAPSHOT?type=pom",
+      "dependsOn" : [
+        "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+      "dependsOn" : [ ]
+    }
+  ]
+}
